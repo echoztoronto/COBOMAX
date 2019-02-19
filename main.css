@@ -3,6 +3,18 @@
     margin: -15px;
 }
 
+.navbar-inverse {
+    background-color: rgb(4, 122, 196)!important;
+}
+
+.navbar-right li a {
+    color: white!important;
+}
+
+.navbar-right li a:hover {
+    color: black!important;
+}
+
 .slider {
     text-align: center;
     background:grey;
