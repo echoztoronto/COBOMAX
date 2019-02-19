@@ -12,7 +12,7 @@
     height: 500px;
     
     padding-top: 50px;
-    font-size: 10em;
+    font-size: 10vm;
 }
 
 .welcome {
@@ -23,7 +23,7 @@
     height: 100px;
     margin-top: 50px;
     color:white;
-    font-size: 5em;
+    font-size: 5vm;
 }
 
 .col-xs-2 {
