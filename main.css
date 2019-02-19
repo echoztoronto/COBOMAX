@@ -15,16 +15,16 @@
     color: black!important;
 }
 
+.container-fluid{
+    width: 100%!important;
+}
+
 .slider {
-    text-align: center;
-    background:grey;
-    position: relative;
-    margin-top: 50px;
-    width: 100%;
-    height: 500px;
-    
-    padding-top: 50px;
-    font-size: 10vm;
+    margin-top: 100px;
+}
+
+.carousel-inner  {
+    height: 600px;
 }
 
 .welcome {
