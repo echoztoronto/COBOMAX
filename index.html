@@ -28,12 +28,12 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about"><span class="glyphicon glyphicon-info-sign"></span> ABOUT </a></li>
+                    <li><a href="index.html#about"><span class="glyphicon glyphicon-info-sign"></span> ABOUT </a></li>
                     <li><a href="news.html"><span class="glyphicon glyphicon-globe"></span> NEWS </a></li>
-                    <li><a href="#program"><span class="glyphicon glyphicon-education"></span> PROGRAM </a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-th-list"></span> PROJECT </a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span> HELP US </a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> CONTACT</a></li>
+                    <li><a href="index.html#program"><span class="glyphicon glyphicon-education"></span> PROGRAM </a></li>
+                    <li><a href="projects.html"><span class="glyphicon glyphicon-th-list"></span> PROJECT </a></li>
+                    <li><a href="index.html#help"><span class="glyphicon glyphicon-thumbs-up"></span> HELP US </a></li>
+                    <li><a href="index.html#contact"><span class="glyphicon glyphicon-envelope"></span> CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -81,8 +81,8 @@
                     &nbsp&nbsp&nbsp &nbsp&nbspThe world is changing...</p>
         </div>
         <!--Weclome Message-->
-        <div class="welcome2"> Welcome to Cobomax Academic </div> 
         <a id="about"></a>
+        <div class="welcome2"> Welcome to Cobomax Academic </div> 
 
         <!--ABOUT-->
         <div class="about-content"> 
@@ -129,13 +129,56 @@
 
         <!--PROJECTS-->
         <div class="project-content">
-
+            <strong onclick="parent.location='projects.html'">Projects >></strong> 
+            <br/>
+            Robotics | Coding | Math | Science 
+            <a id="help"></a>
         </div>
 
+        <!--HELP US--> 
+        <div class="help-content">
+            <h2>   How To Help Us</h2>
+
+            <h3>   Donate</h3> 
+                
+                Every dollar you donate to Cobomax, will let our students go farther on their path in learning STEM.
+                <br/>
+                Please consider a donation!   
+            <h3>     Sponsor </h3> 
+                
+                Sponsoring an event or a Cobomax club is a great form of charitable giving. 
+                <br/>
+                We are grateful to FIRST Robotics Ontario for sponsoring Cobomax FLL Team #37864 The Martians.          
+            
+            <h3>      Volunteer</h3> 
+                
+                There is always a way to make contribution. 
+                <br/>
+                Volunteer to teach or mentor students, or to be a guest
+                
+                speaker in our STEM club!
+            <a id="contact"></a>
+        </div>
+
+        <!--CONTACT-->
+        <?php include 'contact-form.php';?>
+
+        <div class="contact-content">
+            <h2> Contact </h2>
+            <h3>Email</h3>
+            info@CobomaxAcademy.org   
+            
+            <h3>Direct Message</h3>
+            <form action="" method="post">
+                First Name: <input type="text" name="first_name"><br>
+                Last Name: <input type="text" name="last_name"><br>
+                Email: <input type="text" name="email"><br>
+                Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
 
     </div>
-
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
     
     
     
@@ -157,12 +200,6 @@
             </div>
         <hr>
     </div>
-
-
     <br />
-
-
-
-
 </body>
 </html>
