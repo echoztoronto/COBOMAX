@@ -1,17 +1,19 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = "echo.zheng@mail.utoronto.ca"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $name = $_POST['name'];
-    $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
-    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+<?php
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    //mail($to,$subject,$message,$headers);
-    // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-    header('Location: index.html');
+if(isset($_POST['submit'])){
+    $msg = 'Name: ' .$_POST['name'] ."\n"
+        .'Email: ' .$_POST['email'] ."\n"
+        .'Phone: ' .$_POST['phone'] ."\n"
+        .'Message: ' .$_POST['message'];
+
+$go =   mail($to, $subject,  $msg, $headers);
+
+
+    if(!$go) {   
+        echo "Something went wrong.";// error
+        } else {
+        echo "Message was send";// correct
+
+        }
+} 
 ?>
