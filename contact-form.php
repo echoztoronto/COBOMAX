@@ -1,6 +1,11 @@
 <?php
 
 if(isset($_POST['submit'])){
+    $to = "echo.zheng@mail.utoronto.ca";
+    $subject = "My subject";
+    $headers = "Hello world!";
+
+
     $msg = 'Name: ' .$_POST['name'] ."\n"
         .'Email: ' .$_POST['email'] ."\n"
         .'Phone: ' .$_POST['phone'] ."\n"
