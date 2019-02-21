@@ -95,15 +95,9 @@
 .news-content {
     margin-top: 4em;
     background-color:rgba(50, 88, 170);
-    display: inline-block;
     width: 100%;
 }
 
-#news-img {
-    max-width: 25vw;
-    right: 0;
-    top: 0;
-}
 
 .news-content p{
     display: inline-block;
