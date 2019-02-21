@@ -205,18 +205,25 @@
     background: #C9D6FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
 }
 
 .contact-content h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
+    text-align: center;
 }
 
 .contact-content h3 {
+    text-align: center;
     font-family: fantasy;
     color: rgba(0, 4, 63, 0.904);
 }
 
+.form-horizontal {
+    width: 500px;
+    margin: auto;
+}
 
 
 
