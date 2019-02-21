@@ -294,7 +294,7 @@
     padding-left: 1em;
     padding-right: 1em;
     width: calc(100% - 520px);
-    min-width: 400px;
+    min-width: 300px;
     max-width: 80vw;
     
     font-size: 1.3em;
