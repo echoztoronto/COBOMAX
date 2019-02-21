@@ -18,7 +18,6 @@ $go =   mail($to, $subject,  $msg, $headers);
         echo "Something went wrong.";// error
         } else {
         echo "Message was send";// correct
-
         }
 } 
 ?>
