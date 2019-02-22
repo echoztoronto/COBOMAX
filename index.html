@@ -98,44 +98,63 @@
             <p style="font-size: 1.5em">
                 Cobomax's FLL Team #37864, <em>The Martians</em>, got the <strong>1st Place Robot Design</strong> and the <strong>1st Place Robot Performance</strong>, in 2018 FIRST LEGO League &#40FLL&#41 Qualifier Tournament.
                 <span class="label label-warning">NEW</span></p>
+            <a id="program"></a>
             <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"><u><a href="news.html" style="color:white; font-size: 30px" id="news-link"
                 onmouseover="document.getElementById('news-link').style.color='black'"
                 onmouseout="document.getElementById('news-link').style.color='white'">More News >>></a></u></p>
-            <a id="program"></a>
         </div>
 
         <!--PROGRAMS-->
         <div class="program-content">
             <div class="program-block" id="robotics">
-                <h1>Robotics Program</h1>
+                <h1>Robotics Program</h1> <br/>
                 LEGO EV3 Robotics Level 1 <br/><br/>
                 LEGO EV3 Robotics Level 2 <br/><br/>
                 FLL Robotics Club 
             </div>
             <div class="program-block" id="coding">
-                <h1>Coding Program</h1>
+                <h1>Coding Program</h1><br/>
                 Scratch Coding for Kids <br/><br/>
                 Python Coding for Kids <br/><br/>
                 Advanced Coding Club 
             </div>
             <div class="program-block" id="math">
-                <h1>Math Program</h1>
+                <h1>Math Program</h1><br/>
                 Junior Progressive Math<br/><br/>
                 Senior Progressive Math <br/><br/>
                 Advanced Math Club 
             </div>
             <div class="program-block" id="summer">
-                <h1>Summer Camp</h1>
+                <h1>Summer Camp</h1><br/>
                 During Summer Vacation, <br/>
+                <a id="programactive"></a>
                 Cobomax offers exciting <br/>
                 Summer Camps for kids with <br/>
                 special interests in STEM<br/> <br/>
             </div>
         </div>
+        <div class="program-active">
+            <div class="active-title">
+                LEGO EV3 Robotics Level 1 
+                <span class="label label-success">ACTIVE</span>
+                <span class="label label-warning">EARLY BIRD</span>
+            </div>
+            Learn how to build a EV3 robot, how to get start programming the robot, and how to train the robot to accomplish a certain task
+            
+            <br/>
+            <strong>Who</strong>: Kids in grade 4-7 <br/>
+            <strong>Price</strong>: $250 include tax  <strong style="font-size:1.5em; color:rgba(0, 0, 0, 0.575)">Early bird: $220</strong> 
+            <br/>
+            <a style="font-size: 1.3em" href="https://docs.google.com/forms/d/e/1FAIpQLScssIbY3x_9DCPMKQlSh8Srvcw2bxRSG_EFTkSKZDKrszmVpw/viewform" target="_blank">Register before March 10th >>></a> 
+            <br/>
+            <strong>When</strong>: March 27th to May 29th, every Wed. 6:30pm to 8:00pm (10 Sessions) <br/> 
+            <strong>Where</strong>: University Heights Public School, Room 114, Ford Crescent, London, ON  N6G 1H8 <br/>
+            
+        </div>
 
         <!--PROJECTS-->
         <div class="project-content" onmouseover="document.getElementById('project-title').innerHTML='Projects >>>>>>'"
-                onmouseout="document.getElementById('project-title').innerHTML='Projects >>>'" onclick="parent.location='projects.html'">
+                onmouseout="document.getElementById('project-title').innerHTML='Projects >>>'" onclick="parent.location='project.html'">
             <strong id="project-title">Projects >></strong> 
             
             <a id="help"></a>
@@ -167,8 +186,6 @@
         </div>
 
         <!--CONTACT-->
-        <?php require 'contact-form.php';?>
-
         <div class="contact-content">
             <h2> Contact </h2>
             <h3>Email</h3>
@@ -212,6 +229,12 @@
     </div>
     
     
+
+    <div class="alert alert-success alert-dismissible" id="news-alert">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        Check On Our Newest Program: <a href="#programactive" class="alert-link">LEGO EV3 Robotics Level 1</a>
+    </div>
+
     
     <div class="container">
         <hr>
