@@ -1,3 +1,7 @@
+p {
+    font-size: 1.5em;
+}
+
 #logo {
     height: 50px;
     margin-top: -15px;
@@ -138,6 +142,7 @@
 .program-block h1{
     font-size: 2em;
     text-shadow: 1px 1px black;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 #robotics {
