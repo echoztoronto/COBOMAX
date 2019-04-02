@@ -44,6 +44,11 @@ p {
 
 .carousel-inner  {
     height: 40vw;
+    background-color: rgba(50, 88, 170, 0.7);
+}
+
+.carousel-inner img {
+    margin: auto;
 }
 
 .welcome p {
@@ -188,13 +193,12 @@ p {
 
 .project-content {
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.788);
     background-size: 50%;
     margin-top: 2em;
-    height: 250px;
     padding-top: 1em;
     font-size: 1.5em;
-
+    padding-bottom: 1em;
     background: #de6161;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
