@@ -147,7 +147,6 @@ p {
 .program-block h1{
     font-size: 2em;
     text-shadow: 1px 1px black;
-    background: rgba(0, 0, 0, 0.2);
 }
 
 #robotics {
@@ -181,7 +180,7 @@ p {
 
 .program-active .active-title{
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 1em;
 }
 
@@ -328,7 +327,26 @@ p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.subtitle {
+    text-align: center;
+    font-size: 2em;
+    color: #8989ba;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 /* END OF SUBPAGE*/
+
+/* PROJECT */
+#project-vid {
+    width: 100%; 
+    max-width: 1000px; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* END OF PROJECT*/
+
 
 /* NEWS */
 .news-block {
