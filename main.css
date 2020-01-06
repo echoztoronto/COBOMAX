@@ -231,6 +231,14 @@ p {
     font-size: 1.5em;
 }
 
+.sponsors img{
+    min-width: 200px;
+    width: 5vmax;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1em;
+}
+
 .contact-content {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -322,9 +330,9 @@ p {
 .page-title {
     font-size: 4em;
     text-align: center;
-    margin: 50px;
     padding-top: 1em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #acd6e7;
 }
 
 .subtitle {
@@ -339,9 +347,14 @@ p {
 /* PROJECT */
 #project-vid {
     width: 100%; 
-    max-width: 1000px; 
-    display: block;
+    max-width: 700px; 
+    max-height: 600px;
     margin: 0 auto;
+    display: block;
+}
+
+.project-videos {
+    background-color: rgb(196, 187, 167) ;
 }
 
 
