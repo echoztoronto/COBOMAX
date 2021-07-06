@@ -24,6 +24,10 @@ p {
     color: black!important;
 }
 
+#footer {
+    margin-top: 50px;
+}
+
 
 .carousel {
     height: 40vw;
