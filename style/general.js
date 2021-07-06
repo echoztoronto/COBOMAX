@@ -58,7 +58,7 @@ function generate_slider(ID, dir, img_array) {
     if(container === null) return;
 
     let indicator = 
-        `<ol class="carousel-indicators hidden-xs hidden-sm">
+        `<ol class="carousel-indicators hidden-xs">
             <li data-target="#${ID}" data-slide-to="0" class="active"></li>`;;
 
     for(let i = 1; i < img_array.length; i++) {
@@ -84,11 +84,11 @@ function generate_slider(ID, dir, img_array) {
     slides +=  `</div>`;
 
     container.innerHTML = indicator + slides +
-        `<a class="left carousel-control hidden-xs" href="#${ID}" data-slide="prev">
+        `<a class="left carousel-control" href="#${ID}" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control hidden-xs" href="#${ID}" data-slide="next">
+        <a class="right carousel-control" href="#${ID}" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
         </a>`;
