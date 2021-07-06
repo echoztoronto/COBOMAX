@@ -36,7 +36,6 @@ footer.innerHTML =
         <div id="my-info">
             Powered by Yuwen Zheng
             <a href="https://github.com/echoztoronto" target="_blank"><i id="social-gh" class="fa fa-github fa-3x social"></i></a>
-            <a href="mailto:echo.zheng@mail.utoronto.ca"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
         </div>               
     </div>
 <hr>`;
