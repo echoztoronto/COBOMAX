@@ -4,7 +4,7 @@
 
 // the slide show on homepage
 const home_slider_img = [0,1,2];
-const home_slider_path = "image/slider/";
+const home_slider_path = "image/home/";
 
 // for active programs
 const active_program_img = [];   // program page will only display past posters if this array is empty
