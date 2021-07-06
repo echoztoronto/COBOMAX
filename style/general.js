@@ -44,14 +44,13 @@ footer.innerHTML =
 
 // slider
 generate_slider("myCarousel",home_slider_path,home_slider_img);
-if(active_program_img.length !== 0) generate_slider("program-slider",active_program_path,active_program_img);
-else {
+if(active_program_img.length !== 0) {
+    generate_slider("program-slider",active_program_path,active_program_img);
+}    
+else if(document.getElementById("program-title") !== null) {
     change_to_past();
     document.getElementById("program-subtitle").remove();
 }
-
-
-
 
 
 function generate_slider(ID, dir, img_array) {
@@ -98,6 +97,7 @@ function generate_slider(ID, dir, img_array) {
 
 
 function change_to_past(){
+    if(document.getElementById("program-title") === null) return;
     document.getElementById("program-title").innerHTML = `Past Programs`;
     document.getElementById("program-subtitle").innerHTML = `View Active Programs`;
     document.getElementById("program-slider").remove;
@@ -107,6 +107,7 @@ function change_to_past(){
 }
 
 function change_to_active(){
+    if(document.getElementById("program-title") === null) return;
     document.getElementById("program-title").innerHTML = `Active Programs`;
     document.getElementById("program-subtitle").innerHTML = `View Past Programs`;
     document.getElementById("program-slider").remove;
