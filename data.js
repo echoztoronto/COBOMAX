@@ -7,10 +7,13 @@ const home_slider_img = [0,1,2];
 const home_slider_path = "image/home/";
 
 // for active programs
-const active_program_img = [];   // program page will only display past posters if this array is empty
+const active_program_img = [28];   // program page will only display past posters if this array is empty
 const active_program_path = "image/program/";
 
 // for past programs
-const past_program_img = [6,5,4,3,2,1,0];
+let past_program_img = [];
+for (let i = 27; i >= 1; i--) {
+    past_program_img.push(i);
+}
 const past_program_path = "image/program/";
 
